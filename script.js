@@ -1,6 +1,6 @@
 //your JS code here. If required.
-function myName() {
+function functionName() {
 	alert(`${arguments.callee.name}`)
 }
 
-myName();
+functionName();
